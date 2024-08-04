@@ -22,11 +22,12 @@ import FormikValidation from './FormikValidation';
 import YupValidation from './YupValidation';
 import YupValidationComponent from './YupValidationComponent';
 import LifeCycleDemo from './LifeCycleDemo';
+import ReactHookDemo from './ReactHookDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <PracticeComponent/>
+  <ReactHookDemo/>
   </React.StrictMode>
 );
 
